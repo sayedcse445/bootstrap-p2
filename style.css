@@ -1,0 +1,176 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5{
+    
+    font-family: 'Public Sans', sans-serif;
+}
+.hr-style{
+    border: 5px dotted black;
+    width: 50px;
+    border-bottom: none;
+    background: none;
+}
+/* header start */
+
+.navbar{
+    padding: 1% 10%;
+    background-color: rgb(0,0,0,0.3);
+}
+.navbar-icon{
+    color: white;
+}
+.navbar-brand img{
+    width: 80px;
+    height: 70px;
+}
+.navbar-nav .nav-item .nav-link{
+    color:white;
+    margin: 10px;
+    border-radius: 5px;
+    transition: .4s;
+
+}
+.nav-link:hover{
+    background: #2980b9;
+   color: white;
+    transform: scale(1.1);
+}
+
+header{
+    background-image:url(./img/pexels-anastasia-shuraeva-8466783.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    block-size: cover;
+}
+
+.banner-container{
+    height: 100vh;
+}
+.banner-container h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3.5rem;
+    background-color: rgba(7, 101, 189, 0.8);
+    border-radius: 5px;
+}
+
+/* header end */
+
+/* features start */
+#features{
+    padding: 5% 10%;
+    background: #f1b872;
+}
+.features-col{
+    border:1px solid #ff03c0;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 0;
+    transition: 0.4s;
+}
+.features-col:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
+}
+.icon-style{
+    background-color: rgb(241, 116, 239);
+    color: white;
+    padding: 15px;
+    margin: 5px 0;
+}
+
+/* features end */
+
+
+ /* about me start */
+#about-me{
+    padding: 5% 10%;
+    background: #C88EA7;
+}
+#about-me p{
+    font-size: 0.9rem;
+    margin-bottom: 0;
+    font-weight:light ;
+}
+    
+#about-me a{
+    font-size: 0.9rem;
+    color: black;
+    font-weight:light ;
+    text-decoration: underline;
+}
+.basic-desc span{
+    font-weight: 700 !important;
+    text-decoration: none;
+}
+.basic-desc{
+    line-height: 2;
+}
+.star{
+    font-size: 20px;
+    width: 20px;
+}
+
+ /* about me end */
+
+ /* tutorials statr */
+ #tutorials{
+    padding: 3% 10%;
+    background: #E25E3E;
+ }
+ .card{
+    transition: 0.4s;
+    border: 19px solid #7c5319;
+ }
+ .card:hover{
+    transform: scale(1.1);
+    background: #ff03c0;
+ }
+  /* tutorials end */
+
+  /* carousel start */
+#feedback{
+    padding: 5% 10%;
+    background:#5CD2E6 ;
+}
+.carousel-item{
+    text-align: center;
+    padding: 7% 13%;
+    font-style: italic;
+    font-size: 1.2rem;
+}
+.feedback-img{
+    width: 120px;
+    height: auto;
+    margin-bottom: 5px;
+}
+  /* carousel end */
+
+  /* contact me start  */
+#contact-me{
+    padding: 5% 10%;
+    background:#8BE8E5 ;
+}
+.form-group label{
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+  /* contact me end */
+
+  footer{
+    background: #FF9EAA;
+  }
+  footer a{
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+
+  footer a:hover{
+    background: #010101;
+  }
